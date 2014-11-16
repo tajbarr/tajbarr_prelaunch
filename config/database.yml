@@ -3,20 +3,25 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-development:
-  adapter: postgresql
-  database: prelaunchr
-  host: localhost
-
+#
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  adapter: postgresql
-  database: prelaunchr
-  host: localhost
+  host: ec2-54-204-39-187.compute-1.amazonaws.com
+  username: mafjgxmyttzift
+  database: d35j5nacg9etuc
+  password: CnfmWewYnYSnifvQRYqy7fANtS
 
 production:
+  host: ec2-54-204-39-187.compute-1.amazonaws.com
+  username: mafjgxmyttzift
+  database: d35j5nacg9etuc
+  password: CnfmWewYnYSnifvQRYqy7fANtS
+
+development:
   adapter: postgresql
-  database: prelaunchr
-  host: localhost
+  host: ec2-54-204-39-187.compute-1.amazonaws.com
+  username: mafjgxmyttzift
+  database: d35j5nacg9etuc
+  password: CnfmWewYnYSnifvQRYqy7fANtS
